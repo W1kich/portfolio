@@ -1,0 +1,50 @@
+@import "../../style/variables.scss";
+
+.aboutme {
+	padding: 6% 4%;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	.aboutme_content {
+		align-self: center;
+		max-width: 50%;
+		max-height: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 22px;
+	}
+	.aboutme_img {
+		display: flex;
+    justify-content: center;
+
+		img{
+			border-radius: 76% 23% 56% 45% / 46% 32% 47% 52%;
+			background-color: $purple;
+			width: 100%;
+			max-width: 917px;
+			max-height: 729px;
+		}
+	}
+}
+
+@media (max-width: 1280px) {
+	.aboutme{
+		.aboutme_content {
+			max-width: 100%;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.aboutme{
+		flex-direction: column;
+		.text_big{
+			font-size: 50px;
+		}
+		.text{
+			font-size: 20px;
+		}
+	}
+}

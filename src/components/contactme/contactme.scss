@@ -1,0 +1,121 @@
+@import "../../style/variables.scss";
+
+
+.contactme {
+	display: flex;
+	flex-direction: column;
+	padding: 6% 4%;
+	gap: 4%;
+	// justify-content: center;
+	// align-items: center;
+	.contactme_content{
+		display: flex;
+		flex-direction: row;
+		padding: 6% 4%;
+		flex-wrap: wrap;
+		justify-content: space-between;
+			align-items: center;
+		
+		.contactme_info {
+			.contactme_info_content {
+				display: flex;
+				flex-direction: row;
+				padding: 2% 0px;
+				
+				align-items: center;
+				gap: 32px;
+				.contactme_info_content_img {
+					img{
+						width: 60px;
+					}
+				}
+			}
+		
+		}
+		
+		.contactme_form {
+			max-width: 500px;
+			width: 100%;
+			form{
+				display: flex;
+				flex-direction: column;
+				gap: 32px;
+			}
+			.contactme_form_button{
+				button{
+					padding: 18.667px 42.667px;
+					align-items: center;
+					border-radius: 10.667px;
+					background: $purple;
+					border-color: $purple;
+					color: var(--White, #FFF);
+					font-family: Roboto;
+					font-size: 21.333px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: 150%;
+					transition: 0.3s ease-in-out;
+
+					&:hover{
+						cursor: pointer;
+						box-shadow: 0 5px 20px $purple;
+					}
+				}
+			}
+
+			.contactme_form_text{
+				display: flex;
+				flex-direction: column;
+				gap: 20px;
+				input{
+					padding: 16px;
+					align-items: center;
+					align-self: stretch;
+					border-radius: 8px;
+					border: 1.333px solid var(--Primary, $purple);
+					background: var(--White, #FFF);
+				}
+				textarea{
+					padding: 16px;
+					align-items: center;
+					align-self: stretch;
+					border-radius: 8px;
+					border: 1.333px solid var(--Primary, $purple);
+					background: var(--White, #FFF);
+				}
+			
+			}
+		}
+	}
+}
+
+@media (max-width: 780px) {
+	.contactme {
+		.contactme_content{
+			.contactme_info {
+				.contactme_info_content {
+					.text_small{
+						font-size: 18px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 300px) {
+	.contactme {
+		.contactme_content{
+			.contactme_info {
+				.contactme_info_content {
+					gap: 0;
+					.contactme_info_content_img {
+						img{
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}

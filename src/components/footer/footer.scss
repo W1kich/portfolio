@@ -1,0 +1,30 @@
+@import '../../style/variables.scss';
+
+.footer {
+	display: flex;
+	padding: 1.5% 4%;
+	background: $lightBlue;
+	font-size: 21.333px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; 
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.logo {
+		color: $purple;
+	}
+	.footer_list {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 20px;
+		.footer_link {
+			img{
+				width: 32px;
+				height: 32px;
+			}
+		}
+	}
+	
+}

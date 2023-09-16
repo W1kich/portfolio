@@ -1,0 +1,27 @@
+@import "../../style/variables.scss";
+
+.text {
+	color: var(--Body, $black);
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; 
+	color: $black;
+}
+
+.text_big{
+	color: $black;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.text_small {
+	color: $black;
+	font-size: 21.333px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%; 
+}
