@@ -15,6 +15,7 @@ import boots from '../../resources/img/portfolio/boots.png';
 import form from '../../resources/img/portfolio/form.png';
 import growfy from '../../resources/img/portfolio/growfy.png';
 import heropanel from '../../resources/img/portfolio/heropanel.png';
+import VooDoo_test from '../../resources/img/portfolio/VooDoo_test.png';
 
 
 
@@ -28,7 +29,8 @@ const Portfolio = () =>{
 		{img: form, title: 'Form', text: 'Pure ReactApp implemented on class components, work with filters.', link : "https://w1kich.github.io/form/"},
 		{img: growfy, title: 'Grofwy', text: 'The response site is made on the basis of the layout.', link : "https://w1kich.github.io/figma2/"},
 		{img: boots, title: 'Bootstrap', text: 'The ent	ire site is built using Bootstrap.', link : "https://w1kich.github.io/bootstrap/"},
-		{img: heropanel, title: 'Hero panel', text: 'The site is written in React using Redux.', link : "https://w1kich.github.io/heroadminpanel/"}
+		{img: heropanel, title: 'Hero panel', text: 'The site is written in React using Redux.', link : "https://w1kich.github.io/heroadminpanel/"},
+		{img: VooDoo_test, title: 'VooDoo_test', text: 'Created in JavaScript with API and tailwindcss.', link : "https://w1kich.github.io/VooDoo_test/"}
 	]
 
 

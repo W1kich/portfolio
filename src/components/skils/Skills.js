@@ -15,7 +15,7 @@ const skils = [
 	{img: javascript, title: 'JavaScript ', text: 'I have a deep understanding of the JavaScript language and its ecosystem. Confidently use modern ES6+ standards to develop dynamic and efficient web applications.'},
 	{img: nodejs, title: 'Node.js', text: 'My expert level of Node.js and deep understanding of JavaScript allows me to develop dynamic and efficient web applications using modern ES6+ standards.'},
 	{img: web, title: 'Web Development', text: 'I have practical experience in developing websites from scratch. From creating architecture and design to implementation and support. I am able to provide excellent loading speed and responsiveness of the site by optimizing code and resources.'},
-	{img: api, title: 'API', text: 'I have experience in working with various APIs for receiving and sending data. I am able to effectively interact with the server, process responses, and execute asynchronous requests to ensure smooth application performance'},
+	{img: api, title: 'API', text: 'I have experience in working with various APIs for receiving and sending data. I am able to effectively interact with the server, process responses, and execute asynchronous requests to ensure smooth application performance'}
 ]
 
 const cards = (arr) =>{
