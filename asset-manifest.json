@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.affce3c7.css",
-    "main.js": "/portfolio/static/js/main.f628ac78.js",
+    "main.js": "/portfolio/static/js/main.cdbdbda8.js",
     "static/media/me.png": "/portfolio/static/media/me.1695eaf595886a03dc5a.png",
     "static/media/food.png": "/portfolio/static/media/food.71988a27396b01d01650.png",
     "static/media/boots.png": "/portfolio/static/media/boots.d8166a933d363af35f7f.png",
@@ -9,6 +9,7 @@
     "static/media/growfy.png": "/portfolio/static/media/growfy.00ae72659a9bb1f97ab5.png",
     "static/media/marvel.png": "/portfolio/static/media/marvel.347d75a55779de2f8bfb.png",
     "static/media/heropanel.png": "/portfolio/static/media/heropanel.c3eb90bbd2ef4d43d726.png",
+    "static/media/VooDoo_test.png": "/portfolio/static/media/VooDoo_test.84653a6aaeb7f9abcff2.png",
     "static/media/form.png": "/portfolio/static/media/form.69fb6e35fbbc2946a39e.png",
     "static/media/web.svg": "/portfolio/static/media/web.ef97d370b728e214d905d06326a45603.svg",
     "static/media/react.svg": "/portfolio/static/media/react.decfc23c46bb5006b0a6827965a04ec3.svg",
@@ -30,10 +31,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/vector.svg": "/portfolio/static/media/vector.6343fc55ff64b2cfa7126981751f4108.svg",
     "main.affce3c7.css.map": "/portfolio/static/css/main.affce3c7.css.map",
-    "main.f628ac78.js.map": "/portfolio/static/js/main.f628ac78.js.map"
+    "main.cdbdbda8.js.map": "/portfolio/static/js/main.cdbdbda8.js.map"
   },
   "entrypoints": [
     "static/css/main.affce3c7.css",
-    "static/js/main.f628ac78.js"
+    "static/js/main.cdbdbda8.js"
   ]
 }
